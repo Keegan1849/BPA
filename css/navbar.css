@@ -61,9 +61,20 @@ body {
   
 /* Content design */
 .content {
+
     margin-top:150px;
     padding:15px 15px 1800px;
     font-size:22px;
     font-weight: lighter;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f8cb6b;
+}
+.cars {
+    width:1500px;
+    margin-left: 350px;
+    margin-top: -950;
+}
+.carbox{
+    background-color: #01FE06;
+
 }

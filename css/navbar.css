@@ -9,7 +9,7 @@ body {
 /* Navlist designing */
 #navlist {
     overflow: hidden;
-    background-color: #0400ff;
+    background-color: #ffffff;
     padding: 25px 10px;
     transition: 0.4s;
     position: fixed;
@@ -20,7 +20,7 @@ body {
 
 #navlist a {
     float: left;
-    color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     margin-left: 30px;
@@ -29,13 +29,13 @@ body {
     line-height: 25px;
     border-radius: 4px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /*
+    
     border-style: solid;
-    border-width: 3px;
-    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(177, 177, 177);
     border-radius: 0%;
-    */
-    background-color: rgb(129, 129, 129);
+    
+    /*background-color: rgb(129, 129, 129);*/
 }
 
 #navlist #logo {
@@ -50,7 +50,7 @@ body {
 }
 
 #navlist a:hover {
-    color: #01FE06;
+    color: #000000, 126, 81;
 }
 
 #navlist-right {
@@ -67,7 +67,7 @@ body {
     font-size:22px;
     font-weight: lighter;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #f8cb6b;
+    /*background-color: #ffffff;*/
 }
 .cars {
     width:1500px;
@@ -75,6 +75,6 @@ body {
     margin-top: -950;
 }
 .carbox{
-    background-color: #01FE06;
+    background-color: #a5a5a5;
 
 }

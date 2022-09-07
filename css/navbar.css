@@ -9,7 +9,7 @@ body {
 /* Navlist designing */
 #navlist {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: rgb(187, 255, 0);
     padding: 25px 10px;
     transition: 0.4s;
     position: fixed;
@@ -59,22 +59,16 @@ body {
     margin-right: 3%;
 }
   
-/* Content design */
-.content {
-
-    margin-top:150px;
-    padding:15px 15px 1800px;
-    font-size:22px;
-    font-weight: lighter;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /*background-color: #ffffff;*/
-}
 .cars {
     width:1500px;
     margin-left: 350px;
-    margin-top: -950;
+    margin-top: -950px;
 }
 .carbox{
     background-color: #a5a5a5;
+
+}
+body {
+    background-image: url("../images/coolcar.webp");
 
 }

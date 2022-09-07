@@ -7,3 +7,17 @@
     font-weight: lighter;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+body {
+    /* place the blurred image below the normal one */
+    background-image:
+      url("../images/948f1-littleanthonystucsongreenamcpacerburgerhoodcar080413photobykencarr.jpg"),
+      url("../images/bfunk.jpg");
+  
+    /* repeat only the blurred one */
+    background-repeat: no-repeat, repeat-x;
+  
+    background-position: center, center;
+    background-size: contain;
+    height: 50px;
+  }

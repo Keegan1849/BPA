@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="/css/filter.css">
 
         <script src="/javascript/nav.js"></script>
+        <script src="/javascript/filter.js"></script>
     </head>
     <body>
         <div id="navlist">
@@ -21,7 +22,22 @@
             </div>
         </div>
             <div class="content">       
-
+<center>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="#about">About</a>
+          <a href="#base">Base</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#custom">Custom</a>
+          <a href="#support">Support</a>
+          <a href="#tools">Tools</a>
+        </div>
+      </div>
+<center>
+<p id="demo"></p>
             </div>
     </body>
 </html>

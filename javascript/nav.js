@@ -13,13 +13,13 @@
                         .style.padding = "5px 10px";
                  
             document.getElementById("logo")
-                    .style.fontSize = "24px";
+                    .style.fontSize = "15px";
         }
         else {
             document.getElementById("navlist")
-                        .style.padding = "25px 10px";
+                        .style.padding = "20px 10px";
                          
             document.getElementById("logo")
-                        .style.fontSize = "30px";
+                        .style.fontSize = "20px";
         }
     }

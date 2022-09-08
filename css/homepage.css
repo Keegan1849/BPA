@@ -21,3 +21,14 @@ body {
     background-size: contain;
     height: 50px;
   }
+
+  .cars {
+    width:1500px;
+    margin-left: 350px;
+    margin-top: -950px;
+}
+
+.carbox{
+    background-color: #a5a5a5;
+
+}

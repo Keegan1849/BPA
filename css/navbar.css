@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
 }
@@ -9,8 +10,8 @@ body {
 /* Navlist designing */
 #navlist {
     overflow: hidden;
-    background-color: rgb(187, 255, 0);
-    padding: 25px 10px;
+    background-color:  rgb(187, 255, 0);
+    padding: 20px 10px;
     transition: 0.4s;
     position: fixed;
     width: 100%;
@@ -20,9 +21,9 @@ body {
 
 #navlist a {
     float: left;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 196, 75);
     text-align: center;
-    padding: 20px;
+    padding: 3px;
     margin-left: 30px;
     text-decoration: none;
     font-size: 20px;
@@ -30,23 +31,14 @@ body {
     border-radius: 4px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(177, 177, 177);
-    border-radius: 0%;
-    
     /*background-color: rgb(129, 129, 129);*/
 }
 
 #navlist #logo {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     transition: 0.4s;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-style: outset;
-    border-width: 7px;
-    border-color: rgb(88, 88, 88);
-    border-radius: 2%;
 }
 
 #navlist a:hover {
@@ -54,17 +46,8 @@ body {
 }
 
 #navlist-right {
-    margin-top: .45%;
+    margin-top: .10%;
     float: right;
     margin-right: 3%;
 }
   
-.cars {
-    width:1500px;
-    margin-left: 350px;
-    margin-top: -950px;
-}
-.carbox{
-    background-color: #a5a5a5;
-
-}

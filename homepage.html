@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>USED CARS</title>
         <link  rel="stylesheet" href="/css/homepage.css">
         <link rel="stylesheet" href="/css/navbar.css">
@@ -19,50 +21,46 @@
                 <a href="inventory.html">Inventory</a>
                 <a href="#contact">Contact Us</a>
                 <a href="#about">About Us</a>
+                
             </div>
         </div>
-            <div class="content">       
-<center>
-    <div class="dropdown">
-        <button onclick="myFunction1()" class="dropbtn">Make</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#about">Honda</a>
-          <a href="#base">Chevy</a>
-          <a href="#blog">Ford</a>
-          <a href="#contact">Nissain</a>
-          <a href="#custom">Toyota</a>
+    <div class="content">             
+        <table id="tablecolor">
+            <tr>
+                <td><button onclick="hondaFunction()">Honda</button></td>
+                <td><button onclick="fordFunction()">Ford</button></td>
+                <td><button onclick="dodgeFunction()">Dodge</button></td>
 
-        </div>
-        
-      </div>
-      <div class="dropdown">
-        <button onclick="myFunction2()" class="dropbtn">Model</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#about">About</a>
-          <a href="#base">Base</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
-          <a href="#custom">Custom</a>
-          <a href="#support">Support</a>
-          <a href="#tools">Tools</a>
-        </div>
-        
-      </div>
-      <div class="dropdown">
-        <button onclick="myFunction3()" class="dropbtn">Max Price</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#about">2,000</a>
-          <a href="#base">4,000</a>
-          <a href="#blog">6,000</a>
-          <a href="#contact">8,000</a>
-          <a href="#custom">10,000</a>
-          <a href="#support">15,0000</a>
-          <a href="#tools">20,000</a>
-        </div>
-        
-      </div>
-<center>
+                <td>
+            <div id="HondaDiv">
+                        <ol>
+                            <li>Civic</li>
+                            <li>car</li>
+                            <li>moo</li>
+                        </ol> 
+            </div>
+            <div id="FordDiv">
+                <ol>
+                    <li>fordcar</li>
+                    <li>f150</li>
+                    <li>moop</li>
+                </ol> 
+            </div>
+            <div id="dodgeDiv">
+                <ol>
+                    <li>charger</li>
+                    <li>challenger</li>
+                    <li>moopy</li>
+                </ol> 
+            </div>
+                </td>
+            </tr>
+    </table>
+    </div> 
+     
+
 <p id="demo"></p>
             </div>
+
     </body>
 </html>

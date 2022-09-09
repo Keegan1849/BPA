@@ -11,15 +11,15 @@
 body {
     /* place the blurred image below the normal one */
     background-image:
-      url("../images/948f1-littleanthonystucsongreenamcpacerburgerhoodcar080413photobykencarr.jpg"),
-      url("../images/bfunk.jpg");
+      url("../images/RAV_MY19_0002_V005.jpg"),
+      url("../images/befunky.jpg");
   
     /* repeat only the blurred one */
     background-repeat: no-repeat, repeat-x;
   
     background-position: center, center;
-    background-size: contain;
-    height: 50px;
+    background-size: 1000px;
+    background-position: top;
   }
 
   .cars {
@@ -31,4 +31,33 @@ body {
 .carbox{
     background-color: #a5a5a5;
 
+}
+#HondaDiv {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+#FordDiv {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+#dodgeDiv {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+#tablecolor{
+  background-color: blue;
 }

@@ -32,24 +32,6 @@ body {
     background-color: #a5a5a5;
 
 }
-#HondaDiv {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  margin-top: 20px;
-}
-#FordDiv {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  margin-top: 20px;
-}
-#dodgeDiv {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  margin-top: 20px;
-}
 .mystyle {
   width: 100%;
   padding: 25px;
@@ -68,5 +50,16 @@ body {
   padding: 40px;
 }
 #bigContent{
-  
+  background-color: aqua;
+}
+#smallerbox{
+  width: 20%;
+  height: 125px;
+  margin-top:150px;
+  margin-left: 100px;
+  padding: 20px;
+}
+#smallerboxA{
+  width: 500px;
+  margin-left: 125px;
 }

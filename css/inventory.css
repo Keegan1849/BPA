@@ -10,8 +10,7 @@
 body {
     /* place the blurred image below the normal one */
     background-image:
-      url("../images/RAV_MY19_0002_V005.jpg"),
-      url("../images/befunky.jpg");
+      
   
     /* repeat only the blurred one */
     background-repeat: no-repeat, repeat-x;

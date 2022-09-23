@@ -10,7 +10,7 @@ body {
 /* Navlist designing */
 #navlist {
     overflow: hidden;
-    background-color:  #00a79d;
+    background-color:  #919191;
     padding: 20px 10px;
     transition: 0.4s;
     position: fixed;
@@ -53,7 +53,7 @@ body {
 }
   
 #socials {
-    background-color: #333; /* Black background color */
+    background-color: #919191; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */

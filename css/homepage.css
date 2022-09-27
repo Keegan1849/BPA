@@ -45,22 +45,30 @@ body {
 #bbox{
   width: 70%;
   height: 43%;
-  background-color: rgb(77, 71, 139);
   padding: 40px;
 }
-#bigContent{
-  background-color: aqua;
+#lowercontent{
+  padding: 8%;
+  padding-left: 10%;
+  width: 75%;
 }
-#smallerbox{
-  width: 20%;
-  height: 125px;
-  margin-top:150px;
-  margin-left: 100px;
-  padding: 20px;
+#testdhead{
+  width: 35%;
 }
-#smallerboxA{
-  width: 500px;
-  margin-left: 125px;
+#testdhead2{
+  width: 35%;
+  padding-top: 5%;
+}
+#testdhead3{
+  width: 35%;
+  padding-top: 5%;
+}
+#testdcont{
+  width: 42%;
+  padding-top: .5%;
+}
+#schedule{
+  text-align: right;
 }
 #gmap_canvas{
   overflow:hidden;

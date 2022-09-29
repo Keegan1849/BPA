@@ -68,7 +68,7 @@ body {
   padding-top: .5%;
 }
 #schedule{
-  text-align: right;
+  float: right;
 }
 #gmap_canvas{
   overflow:hidden;

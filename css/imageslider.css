@@ -6,9 +6,15 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
 
-  max-width: 100px;
-  position: relative;
-  margin-left: -1400px;
+  max-width: 20%;
+
+  margin-left: 2%;
+  max-height: 2%;
+}
+#imgtag{
+  max-height: 20%;
+  max-width: 20%;
+
 }
 
 

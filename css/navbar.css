@@ -17,8 +17,6 @@ body {
     width: 100%;
     top: 0;
     z-index: 1;
-    position: relative;
-    height: 100px;
 }
 
 #navlist a {
@@ -37,10 +35,10 @@ body {
 }
 
 #navlist #logo {
-    transition: 0.4s;
     float: left;
-    height: 50px;
-    padding-left: 30px;
+    width: 120px;
+    position: relative;
+    right: 1250px;
 }
 
 #navlist a:hover {
@@ -52,16 +50,15 @@ body {
     float: right;
     margin-right: 3%;
 }
-  
+/*
 #socials {
-    background-color: #919191; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: #919191;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
   }
   
-  /* Style the navbar links */
   #socials a {
     float: left;
     display: block;
@@ -75,3 +72,4 @@ body {
     background-color: #ddd;
     color: black;
   }
+  */
